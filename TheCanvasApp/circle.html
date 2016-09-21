@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<title>Really cool drawing app</title>
+	<link rel="stylesheet" href="drawing.css">
+</head>
+<body style="margin: 0">
+	<div id="toolbar">
+		<div id="brush">
+			Radius <span id="brushradius">10</span>
+			<div id="decrad" class="control">-</div>
+			<div id="incrad" class="control">+</div>
+		</div>
+		<div id="colors">
+			
+		</div>
+		<div id="save">
+			<iframe id="downloadframe" hidden=yes></iframe>
+			Save
+		</div>
+	</div>
+	<canvas id="canvas" style="display: block;">
+	
+	</canvas>
+	<script src="main.js"></script>
+	<script src="getradius.js"></script>
+	<script src="colors.js"></script>
+	<script src="save.js"></script>
+</body>
+</html>
